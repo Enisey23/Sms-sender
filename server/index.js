@@ -9,7 +9,7 @@ import { UserController, PostController } from "./controllers/index.js";
 
 mongoose
   .connect(
-    "mongodb+srv://admin:12345@cluster0.s08nxoh.mongodb.net/mail?retryWrites=true&w=majority"
+    // mongodb
   )
   .then(() => console.log("DB ok"))
   .catch((err) => console.log("DB error", err));
